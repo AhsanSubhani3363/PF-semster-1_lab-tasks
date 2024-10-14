@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 string poolState(int volume , int pipe1 , int pipe2 , float hours);
-main()
+int main()
 {	int volume , pipe_1 , pipe_2;
 	float hours;
 	cout << "Enter volume of the pool in liters: ";

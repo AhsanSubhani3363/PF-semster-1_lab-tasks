@@ -22,8 +22,6 @@ string timetravel(int  hour_s,int  minute_s)
    future_time += ":" + to_string(minute_s);
      return future_time;
  }
-
-
 int main()
 {
     int hours,minutes;
