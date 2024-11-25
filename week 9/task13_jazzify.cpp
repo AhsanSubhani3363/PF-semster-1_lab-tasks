@@ -8,7 +8,6 @@ int chordlength(string chord)
         length++;
     return length;
 }
-
 void jazzifyChords(string chords[], int numchords)
 {
 
@@ -18,7 +17,6 @@ void jazzifyChords(string chords[], int numchords)
         if ((size == 0) || (chords[i][size - 1] != '7'))
             chords[i] = chords[i] + '7';
     }
-
     cout << "Jazzified chords:" << endl;
     for (int i = 0; i < numchords; i++)
         cout << chords[i] << endl;
@@ -33,5 +31,4 @@ int main()
     for (int i = 0; i < numchords; i++)
         cin >> chords[i];
     jazzifyChords(chords, numchords);
-    return 0;
 }
